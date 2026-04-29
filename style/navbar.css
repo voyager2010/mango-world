@@ -1,5 +1,5 @@
 .navbar-container {
-    background-color: #2E7D32;
+    background-color: yellowgreen;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -49,7 +49,7 @@
 }
 
 .menu-item:hover {
-    color: black;
+   color: rgb(201, 130, 23);
 }
 
 .navbar-humburger-logo {
