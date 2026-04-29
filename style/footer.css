@@ -52,3 +52,21 @@
     display: block;
     margin-top: 15px;
 }
+
+/* Mobile Screen */
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+ .footer {
+    flex-wrap: wrap; 
+ } 
+ 
+ .hamburger {
+        display: block;
+        margin: 0;
+        align-self: center;
+    }
+
+ 
+}
+
