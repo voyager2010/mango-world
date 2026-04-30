@@ -30,19 +30,9 @@ display: flex;
 }
 
 .card img {
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+   width: 100%;
 }
 
-.card h3 {
-    margin: 10px 0;
-}
-
-.card p {
-    padding: 0 10px 15px;
-    font-size: 14px;
-}
 
 .know {
     background-color: rgb(188, 175, 30);
