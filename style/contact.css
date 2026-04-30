@@ -1,10 +1,41 @@
 .contact {
     padding: 40px;
     text-align: center;
-    
+
 }
 
 .contact {
     font-size: 18px;
     margin: 10px 0;
+}
+
+.contact-form {
+    text-align: center;
+    padding: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.contact-form button {
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Mobile Screen */
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .contact-form input,
+.contact-form textarea {
+     width: 200px;
+    padding: 10px;
+    margin: 5px;
+}  
 }
